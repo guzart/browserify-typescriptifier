@@ -1,11 +1,11 @@
 {
-  "name": "typescriptify",
+  "name": "typescriptifier",
   "version": "0.0.1",
   "description": "Typescrip transform for Browserify",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/guzart/browserify-typescriptify.git"
+    "url": "git://github.com/guzart/browserify-typescriptifier.git"
   },
   "keywords": [
     "typescript",
@@ -15,9 +15,9 @@
   "author": "Arturo Guzman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guzart/browserify-typescriptify/issues"
+    "url": "https://github.com/guzart/browserify-typescriptifier/issues"
   },
-  "homepage": "https://github.com/guzart/browserify-typescriptify",
+  "homepage": "https://github.com/guzart/browserify-typescriptifier",
   "dependencies": {
     "through": "^2.3.4",
     "typescript-api": "^0.9.7"

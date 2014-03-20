@@ -1,11 +1,11 @@
-typescriptify
+typescriptifier
 ========================
 
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>typescriptify</td>
+<td>Package</td><td>typescriptifier</td>
 </tr>
 <tr>
 <td>Description</td>
@@ -19,8 +19,8 @@ typescriptify
 
 ## Usage
 
-    $ npm install typescriptify
-    $ browserify -t typescriptify main.ts > bundle.js
+    $ npm install typescriptifier
+    $ browserify -t typescriptifier main.ts > bundle.js
 
 ## Usage with `gulp-browserify`
 
@@ -32,7 +32,7 @@ typescriptify
       return gulp
         .src('app/main.ts')
         .pipe(browserify({
-            transform:  ['typescriptify'],
+            transform:  ['typescriptifier'],
             extensions: ['.ts'],
         }))
         .pipe(rename('app.js'))

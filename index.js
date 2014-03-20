@@ -6,7 +6,7 @@ var tsRegex = new RegExp('\\.ts$', 'i');
 var jsRegex = new RegExp('\\.js$', 'i');
 
 
-function typescriptify(file) {
+function typescriptifier(file) {
     var data, stream, throughWrite, throughEnd;
 
     if (!isTypescript(file)) {
@@ -83,7 +83,7 @@ function compileTs(file, data) {
     return output;
 }
 
-typescriptify.isTypescript  = isTypescript;
-typescriptify.compile       = compile;
+typescriptifier.isTypescript  = isTypescript;
+typescriptifier.compile       = compile;
 
-module.exports = typescriptify;
+module.exports = typescriptifier;

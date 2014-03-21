@@ -20,7 +20,7 @@ typescriptifier
 ## Usage
 
     $ npm install typescriptifier
-    $ browserify -t typescriptifier main.ts > bundle.js
+    $ browserify main.ts -t typescriptifier --extension=.ts > bundle.js
 
 ## Usage with `gulp-browserify`
 

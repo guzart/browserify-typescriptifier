@@ -30,7 +30,7 @@ typescriptifier
 
     gulp.task('default', function () {
       return gulp
-        .src('app/main.ts')
+        .src('app/main.ts', {read: false})
         .pipe(browserify({
             transform:  ['typescriptifier'],
             extensions: ['.ts'],

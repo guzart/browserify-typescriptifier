@@ -20,6 +20,6 @@
   "homepage": "https://github.com/guzart/browserify-typescriptifier",
   "dependencies": {
     "through": "^2.3.4",
-    "typescript-api": "^0.9.7"
+    "typescript-api": "^1.0.0"
   }
 }

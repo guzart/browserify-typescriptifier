@@ -1,6 +1,12 @@
 typescriptifier
 ========================
 
+## Not Maintained
+
+You can take a look at https://github.com/smrq/tsify
+
+
+
 ## Information
 
 <table>

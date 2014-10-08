@@ -59,7 +59,7 @@ function getTsSettings() {
 }
 
 function compileTs(file, data) {
-    var logger = new ts.NullLogger();
+    var logger = new ts.ConsoleLogger();
     var settings = getTsSettings();
     var compiler = new ts.TypeScriptCompiler(logger, settings);
 
